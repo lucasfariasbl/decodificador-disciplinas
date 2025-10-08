@@ -1,0 +1,91 @@
+body {
+    background-color: #5465ff;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+}
+
+.containerExterno {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 5, 0.2);
+    padding: 20px;
+    width: 500px;
+    height: 250px;
+    margin-bottom: 35vh;
+}
+
+.container {
+    font-family: 'Times New Roman', Times, serif ;
+    text-align: center;
+}
+
+.container p {
+    font-size: 2vh;
+    font-weight: bold;
+}
+
+#botaoDecodificador, #codigoInserido {
+    display: block;
+
+    margin-right: auto;
+    margin-left: auto;
+
+    transition: all 0.1s ease-in-out;
+}
+
+#codigoInserido {
+    padding: 5px 10px;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+
+}
+
+#codigoInserido:hover {
+    transform: scale(1.1);
+}
+
+#codigoInserido:focus {
+    transform: scale(1.1);
+}
+
+#botaoDecodificador {
+    background-color: dodgerblue;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 13px;
+    margin-top: 2vh;
+    font-size: 100%;
+
+}
+
+#botaoDecodificador:hover {
+    transform: scale(1.1);
+}
+
+#botaoDecodificador:active {
+    transform: scale(0.9);
+}
+
+#resultadoDecodificado {
+    margin-top: 200px;
+}
+
+.erro {
+    padding: 30px;
+    background: linear-gradient(135deg, #5c0e0e, #770303);
+    color: #d44646; 
+    font-weight: bold; 
+    border-radius: 15px;
+}
+
+.sucesso {
+    padding: 30px;
+    background: linear-gradient(135deg, #17580f, #014705);
+    color: #64df64; 
+    font-weight: bold; 
+    border-radius: 15px;
+}
